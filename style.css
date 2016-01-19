@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height: 100%;
+}
+/*导航样式*/
+.mainnav{
+	width: 100%;
+	height: 50px;	
+}
+.mainnav .nav{
+	font-size: 13px;
+	font-family: arial;
+	float: right;
+	height: 50px;
+	margin-top: 10px;
+	text-align: center;
+}
+.mainnav .nav .nav1{
+	font-weight: bold;
+	color: #333;
+	margin-right: 15px;
+}
+.mainnav .nav .nav1:hover{
+	color: #00c;
+}
+.mainnav .nav .nav2{
+	color: #333;
+	margin-right: 15px;
+}
+.mainnav .nav .nav2:hover{
+	color: #00c;
+}
+.mainnav .nav .nav3{
+    display: inline-block;
+    background-color: #38f;
+    color: #FFFFFF;
+    width: 60px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+	text-decoration: none;
+	margin: 10px 20px 10px 10px;  
+}
+/*logo和input样式*/
+.content{
+	position: relative;
+	top:10%;
+}
+.content .baidulogo{
+	width: 100%;
+	height: 120px;
+    margin-bottom: 30px;
+}
+.content .baidulogo img{
+	width: 270px;
+	height: 129px;
+	position: relative;
+	left: 50%;
+	top:50%;
+	margin-left: -135px;
+	margin-top: -64.5px;
+}
+.content .search{
+	margin: 22px auto 0;
+    width: 641px;
+}
+.content .search .searchbar{
+	background: #fff;
+	display: inline-block;
+	width: 539px;
+	height: 34px;
+	margin-right: 0;
+}
+.content .search .searchbar input{
+	display: inline-block;
+    width: 539px;
+    height: 34px;
+    font: 16px arial;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: 1px solid #b6b6b6;
+    outline: 0;
+    -webkit-appearance: none;
+}
+.content .search .searchbar input:focus{
+	border: 1px solid #3385ff;
+}
+.content .search .submit{
+	display: inline-block;
+	width: auto;
+    height: auto;
+    border-bottom: 1px solid transparent;
+    background-position: -120px -48px;
+    z-index: 0;
+    vertical-align: top;
+}
+.content .search .submit input{
+	width: 100px;
+    height: 36px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border: 0;
+    padding: 0;
+    border-bottom: 1px solid #2d78f4;
+    outline: medium;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    position: relative;
+    margin-left: -8px;
+    cursor:pointer;
+}
+.content .search .submit input:hover{
+	background: #317ef3;
+	box-shadow:1px 1px 1px #b6b6b6;
+}
+/*底部样式*/
+.footer{
+	font-size: 12px;
+	font-family: arial;
+	height: 100px;
+    position: absolute;
+    bottom: 44px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 0;
+    overflow: hidden;
+}
+.footer .footer1{
+	margin-bottom: 5px;
+}
+.footer .footer1 a{
+	margin: 9px;
+	color: #00c;
+}
+.footer .footer2 a{
+	color: #666;
+}
+.footer .footer2 .icon{
+	width: 14px;
+	height: 17px;
+	display: inline-block;
+	overflow: hidden;
+	background:  url("images/footer_icon.png") ;
+	position: relative;
+	top: 3px;
+}
